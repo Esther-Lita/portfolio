@@ -13,7 +13,7 @@ export default function Hero() {
           Esther Lizardo
         </h1>
         <p className="lg:text-lg mt-4 text-gray-600 ">
-          I'm a Front-end developer based in Europe.
+          I&apos;m a Front-end developer based in Europe.
         </p>
       </div>
       <div className="">

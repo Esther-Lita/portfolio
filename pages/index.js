@@ -15,7 +15,7 @@ export default function Home() {
             type="button"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-gray-800 bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300"
           >
-            Let's Talk
+            Let&apos;s Talk
           </button>
         </Link>
       </div>
@@ -27,7 +27,7 @@ export default function Home() {
           <p className="text-gray-600 md:text-lg">
             Good knowledge of HTML, CSS, Javascript, React.js and Next.js. I
             make responsive applications with Bootstrap and Tailwind CSS with
-            interactive UI's designs.
+            interactive UI designs.
           </p>
         </div>
       </div>
