@@ -26,13 +26,19 @@ export default function Navbar() {
           </div>
         </div>
         <div className="group">
-          <Link href="/about"> About</Link>
+          <Link href="#projects"> Projects</Link>
           <div className="mx-2 group-hover:border-b group-hover:border-zinc-400">
             {" "}
           </div>
         </div>
         <div className="group">
-          <Link href="/contact">Contact </Link>
+          <Link href="#about"> About</Link>
+          <div className="mx-2 group-hover:border-b group-hover:border-zinc-400">
+            {" "}
+          </div>
+        </div>
+        <div className="group">
+          <Link href="#contact">Contact </Link>
           <div className="mx-2 group-hover:border-b group-hover:border-zinc-400">
             {" "}
           </div>

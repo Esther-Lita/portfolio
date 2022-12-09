@@ -1,18 +1,53 @@
+import Image from "next/image";
+import * as Icon from "react-feather";
+
+import esther2 from "../public/img/esther2.jpeg";
+
 export default function About() {
   return (
-    <div className=" ">
+    <div id="about">
       <div className="bg-gradient-to-b from-slate-50 to-cyan-200    w-screen pt-32">
-        <h4 className="text-xl text-gray-900 font-bold mb-10 md:text-3xl text-center ">
-          There&apos;s something about me you&apos;d like to know
-        </h4>
-        <p className="text-gray-600 md:text-lg p-4">
+        <h4 className="text-lg text-gray-900 font-bold pb-10 md:text-2xl text-center px-10 ">
           If you&apos;ve made it all the way here it means you wank to know a
-          little bit more about who I am
-        </p>
+          little bit more about who I am...
+        </h4>
       </div>
-      <div className="bg-gradient-to-b from-cyan-200 to-slate-50    w-screen pb-32">
-        <h2 className="text-3xl text-gray-900 font-bold mb-10 md:text-4xl text-center pt-20">
-          I am Esther
+      <div className="bg-gradient-to-b from-cyan-200 to-yellow-200    w-screen">
+        <div className="flex flex-col md:flex-row mx-3 md:mx-10 md:py-10">
+          <div className="max-w-sm my-4 mx-auto md:mx-6 md:my-0">
+            {" "}
+            <Image
+              src={esther2}
+              alt=""
+              className="rounded-2xl -rotate-6 shadow-lg shadow-orange-300 "
+            />
+          </div>
+          <div className="max-w-xl m-auto">
+            <p className="text-gray-800 md:text-lg pt-10 md:pt-0 md:pl-3">
+              {" "}
+              <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
+              very passionated about learning and doing, it is amazing to be
+              part of the creation of a project and see how line after line of
+              code things fall in place.
+            </p>
+            <p className="text-gray-800 md:text-lg pt-10    md:pt-6 md:pl-3 ">
+              <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
+              very passionated about learning and doing, it is amazing to be
+              part of the creation of a project and see how line after line of
+              code things fall in place.
+            </p>{" "}
+            <p className="text-gray-800 md:text-lg pt-10 md:pl-3">
+              <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
+              very passionated about learning and doing, it is amazing to be
+              part of the creation of a project and see how line after line of
+              code things fall in place.
+            </p>{" "}
+          </div>
+        </div>
+      </div>
+      <div className="bg-gradient-to-b  from-yellow-200 to-slate-50   w-screen pb-32 ">
+        <h2 className="text-3xl text-gray-900 font-bold mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
+          I&apos;m Esther
         </h2>
       </div>
     </div>

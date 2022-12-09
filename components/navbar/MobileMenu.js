@@ -6,10 +6,13 @@ export default function MobileMenu() {
       <Link href="/" className="hover:text-gray-600 ">
         Home
       </Link>
-      <Link href="/about" className="hover:text-gray-600">
+      <Link href="#projects" className="hover:text-gray-600">
+        Projects
+      </Link>
+      <Link href="#about" className="hover:text-gray-600">
         About
       </Link>
-      <Link href="/contact" className="hover:text-gray-600">
+      <Link href="#contact" className="hover:text-gray-600">
         Contact
       </Link>
     </div>
