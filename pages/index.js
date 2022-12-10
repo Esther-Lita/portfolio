@@ -26,7 +26,7 @@ export default function Home() {
             Developer skills
           </h2>
           <p className="text-gray-600 md:text-lg">
-            Good knowledge of HTML, CSS, Javascript, React.js and Next.js. I
+            Good knowledge of HTML, CSS, JavaScript, React.js and Next.js. I
             make responsive applications with Bootstrap and Tailwind CSS with
             interactive UI designs.
           </p>
