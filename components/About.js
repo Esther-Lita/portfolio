@@ -14,7 +14,7 @@ export default function About() {
       </div>
       <div className="bg-gradient-to-b from-cyan-200 to-yellow-200    w-screen">
         <div className="flex flex-col md:flex-row mx-3 md:mx-10 md:py-10">
-          <div className="max-w-sm my-4 mx-auto md:mx-6 md:my-0">
+          <div className="md:max-w-sm my-4 mx-auto md:mx-6 md:my-0 max-w-xs">
             {" "}
             <Image
               src={esther2}
