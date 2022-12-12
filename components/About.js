@@ -51,8 +51,8 @@ export default function About() {
           I&apos;m Esther
         </h2>
         <p className="text-gray-700 md:text-lg text-center px-8 pt-10 lg:text-xl">
-          In this momment I'm seeking for new opportunities in front-end
-          development. I'm open to work remotely and have flexible hours.
+          In this momment I&apos;m seeking for new opportunities in front-end
+          development. I&apos;m open to work remotely and have flexible hours.
         </p>
       </div>
     </div>
