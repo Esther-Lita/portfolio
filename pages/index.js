@@ -33,10 +33,10 @@ export default function Home() {
       </div>
       <div>
         <div className="p-4 text-center shadow-lg rounded-2xl shadow-yellow-300 max-w-2xl border-b-2 border-gray-300 mx-4 my-10">
-          <h2 className="text-3xl text-gray-900 font-bold mb-5 md:text-4xl font-inter">
+          <h2 className="text-3xl text-gray-900 font-bold mb-5 md:text-4xl lg:text-5xl font-inter">
             Developer skills
           </h2>
-          <p className="text-gray-600 md:text-lg font-robotoSlab  ">
+          <p className="text-gray-600 md:text-lg lg:text-2xl font-robotoSlab  ">
             Good knowledge of HTML, CSS, JavaScript, React.js and Next.js. I
             make responsive applications with Bootstrap and Tailwind CSS with
             interactive UI designs.

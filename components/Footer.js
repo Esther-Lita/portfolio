@@ -7,11 +7,11 @@ export default function Footer() {
       <footer className="bg-pink-500   md:rounded-3xl   flex h-full w-full justify-between flex-row md:flex-col px-5 py-14  md:px-14 lg:px-16 lg:pb-16 lg:pt-20 shadow-xl shadow-orange-200">
         <div className="flex flex-col md:flex-row justify-center ml-4 ">
           <div className="  m-auto ">
-            <h3 className="text-xl  text-white md:text-3xl mb-3 md:mb-8 md:text-center font-inter font-bold">
+            <h3 className="text-xl  text-white md:text-3xl lg:text-5xl mb-3 md:mb-8 md:text-center font-inter font-bold">
               Let&apos;s work together!
             </h3>
             <Link href="mailto:estherlitalg@gmail.com">
-              <p className="text-white md:text-xl text-center hover:underline  font-robotoCondensed">
+              <p className="text-white md:text-xl lg:text-2xl text-center hover:underline  font-robotoCondensed">
                 estherlitalg@gmail.com
               </p>
             </Link>

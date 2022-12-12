@@ -8,11 +8,11 @@ export default function Hero() {
       id="hero"
       className=" bg-yellow-400 flex flex-row relative  w-screen md:py-6"
     >
-      <div className="md:my-10 text-left lg:text-center ml-4 m-auto">
-        <h1 className="md:text-7xl font-bold font-oswald text-black text-5xl pt-2">
+      <div className="md:my-10 lg:ml-20 text-left lg:text-center ml-4 m-auto">
+        <h1 className="md:text-7xl xl:text-9xl font-bold font-oswald text-black text-5xl pt-2">
           Esther Lizardo
         </h1>
-        <p className="lg:text-lg mt-4 text-gray-600 font-robotoCondensed">
+        <p className="md:text-lg lg:text-2xl mt-4 text-gray-600 font-robotoCondensed">
           I&apos;m a Front-end developer based in Europe.
         </p>
       </div>

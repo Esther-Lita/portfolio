@@ -10,10 +10,10 @@ import portfolioweb from "../public/img/portfolioweb.png";
 export default function Projects() {
   return (
     <div id="projects" className="py-32 ">
-      <h2 className="text-3xl text-gray-900 font-bold font-inter mb-5 md:text-4xl text-center">
+      <h2 className="text-3xl text-gray-900 font-bold font-inter mb-5 md:text-4xl lg:text-5xl text-center">
         Some of my creations{" "}
       </h2>
-      <p className="text-gray-500 md:text-lg text-center mb-12 font-robotoSlab font-light">
+      <p className="text-gray-500 md:text-lg lg:text-xl text-center mb-12 font-robotoSlab font-light">
         Including this website
       </p>
       <div className=" lg:grid lg:grid-cols-2 lg:grid-rows-2 flex flex-col">

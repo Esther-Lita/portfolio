@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div id="about">
       <div className="bg-gradient-to-b from-slate-50 to-cyan-200    w-screen pt-32">
-        <h4 className="text-lg text-gray-900 font-bold font-aboutH pb-10 md:text-2xl text-center px-10 ">
+        <h4 className="text-lg text-gray-900 font-bold font-aboutH pb-10 md:text-2xl lg:text-3xl text-center px-10  ">
           If you&apos;ve made it all the way here it means you wank to know a
           little bit more about who I am...
         </h4>
@@ -24,24 +24,24 @@ export default function About() {
             />
           </div>
           <div className="max-w-xl m-auto font-robotoSlab">
-            <p className="text-gray-800 md:text-lg pt-10 md:pt-0 md:pl-3">
+            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10 md:pt-0 md:pl-3">
               {" "}
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
               very passionated about learning and doing, it is amazing to be
               part of the creation of a project and see how line after line of
               code things fall in place.
             </p>
-            <p className="text-gray-800 md:text-lg pt-10    md:pt-6 md:pl-3 ">
+            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10    md:pt-6 md:pl-3 ">
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
               very passionated about learning and doing, it is amazing to be
               part of the creation of a project and see how line after line of
               code things fall in place.
             </p>{" "}
-            <p className="text-gray-800 md:text-lg pt-10 md:pl-3">
+            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10 md:pl-3 ">
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
-              very passionated about learning and doing, it is amazing to be
-              part of the creation of a project and see how line after line of
-              code things fall in place.
+              strongly driven to help people, therefore capture the costumers
+              wants and needs to meet the standards required for the assignment
+              is very important for me in a business relationship.
             </p>{" "}
           </div>
         </div>
@@ -50,6 +50,10 @@ export default function About() {
         <h2 className="text-3xl text-gray-900 font-bold font-josefinSans mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
           I&apos;m Esther
         </h2>
+        <p className="text-gray-700 md:text-lg text-center px-8 pt-10 lg:text-xl">
+          In this momment I'm seeking for new opportunities in front-end
+          development. I'm open to work remotely and have flexible hours.
+        </p>
       </div>
     </div>
   );
