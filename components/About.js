@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div id="about">
       <div className="bg-gradient-to-b from-slate-50 to-cyan-200    w-screen pt-32">
-        <h4 className="text-lg text-gray-900 font-bold pb-10 md:text-2xl text-center px-10 ">
+        <h4 className="text-lg text-gray-900 font-bold font-aboutH pb-10 md:text-2xl text-center px-10 ">
           If you&apos;ve made it all the way here it means you wank to know a
           little bit more about who I am...
         </h4>
@@ -22,7 +22,7 @@ export default function About() {
               className="rounded-2xl -rotate-6 shadow-lg shadow-orange-300 "
             />
           </div>
-          <div className="max-w-xl m-auto">
+          <div className="max-w-xl m-auto font-robotoSlab">
             <p className="text-gray-800 md:text-lg pt-10 md:pt-0 md:pl-3">
               {" "}
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
@@ -46,7 +46,7 @@ export default function About() {
         </div>
       </div>
       <div className="bg-gradient-to-b  from-yellow-200 to-slate-50   w-screen pb-32 ">
-        <h2 className="text-3xl text-gray-900 font-bold mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
+        <h2 className="text-3xl text-gray-900 font-bold font-josefinSans mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
           I&apos;m Esther
         </h2>
       </div>

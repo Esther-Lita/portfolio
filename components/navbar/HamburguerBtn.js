@@ -26,7 +26,7 @@ export default function HamburguerBtn() {
         <span className="hamburguer-middle"></span>
         <span className="hamburguer-bottom"></span>
       </button>
-      {openState && <MobileMenu />}
+      {openState && <MobileMenu function={buttonClick} />}
     </div>
   );
 }

@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      oswald: ["Oswald", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+      robotoCondensed: ["Roboto Condensed", "sans-serif"],
+      aboutH: ["Josefin Sans", "sans-serif"],
+      robotoSlab: ["Roboto Slab", "serif"],
+    },
   },
   plugins: [],
 };

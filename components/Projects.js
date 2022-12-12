@@ -10,14 +10,14 @@ import portfolioweb from "../public/img/portfolioweb.png";
 export default function Projects() {
   return (
     <div id="projects" className="py-32 ">
-      <h2 className="text-3xl text-gray-900 font-bold mb-5 md:text-4xl text-center">
+      <h2 className="text-3xl text-gray-900 font-bold font-inter mb-5 md:text-4xl text-center">
         Some of my creations{" "}
       </h2>
-      <p className="text-gray-500 md:text-lg text-center mb-12">
+      <p className="text-gray-500 md:text-lg text-center mb-12 font-robotoSlab font-light">
         Including this website
       </p>
       <div className=" lg:grid lg:grid-cols-2 lg:grid-rows-2 flex flex-col">
-        <div className="max-w-lg  bg-white  my-5 mx-5 border-transparent p-4 rounded-2xl shadow-md  lg:my-12 relative group hover:shadow-xl hover:shadow-gray-500 hover:border-gray-300 hover:border-b hover:cursor-pointer">
+        <div className="max-w-lg  bg-white  my-5 mx-5 border-transparent p-4 rounded-2xl shadow-md  lg:my-12 relative group hover:shadow-xl hover:shadow-gray-500 hover:border-gray-300 hover:border-b hover:cursor-pointer ">
           <Link
             href="https://dashing-crisp-63467d.netlify.app/"
             target="_blank"
@@ -32,8 +32,11 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl group-hover:cursor-pointer">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Weather App</p>
-                <p className="text-xs text-center"> React.js, CSS, HTML</p>
+                <p className="text-sm text-center font-inter ">Weather App</p>
+                <p className="text-xs text-center font-robotoCondensed">
+                  {" "}
+                  React.js, CSS, HTML
+                </p>
               </div>
             </div>
           </div>
@@ -52,8 +55,8 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Weather App</p>
-                <p className="text-xs text-center">
+                <p className="text-sm text-center font-inter">Weather App</p>
+                <p className="text-xs text-center font-robotoCondensed">
                   HTML, CSS, Vanilla Javascript
                 </p>
               </div>
@@ -71,8 +74,8 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Dictionary Web</p>
-                <p className="text-xs text-center">
+                <p className="text-sm text-center font-inter">Dictionary Web</p>
+                <p className="text-xs text-center font-robotoCondensed">
                   React.js, CSS, HTML, Tailwindcss
                 </p>
               </div>
@@ -93,8 +96,8 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Weather App</p>
-                <p className="text-xs text-center">
+                <p className="text-sm text-center font-inter">Weather App</p>
+                <p className="text-xs text-center font-robotoCondensed">
                   HTML, CSS, Bootstrap, Flexbox{" "}
                 </p>
               </div>
@@ -115,8 +118,8 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Croissant Web</p>
-                <p className="text-xs text-center">
+                <p className="text-sm text-center font-inter">Croissant Web</p>
+                <p className="text-xs text-center font-robotoCondensed">
                   HTML, CSS, Bootstrap, Flexbox
                 </p>
               </div>
@@ -138,8 +141,10 @@ export default function Projects() {
           <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
-                <p className="text-sm text-center">Lanzarote Web</p>
-                <p className="text-xs text-center">HTML, CSS</p>
+                <p className="text-sm text-center font-inter">Lanzarote Web</p>
+                <p className="text-xs text-center font-robotoCondensed">
+                  HTML, CSS
+                </p>
               </div>
             </div>
           </div>
