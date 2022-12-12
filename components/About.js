@@ -17,6 +17,7 @@ export default function About() {
           <div className="md:max-w-sm my-4 mx-auto md:mx-6 md:my-0 max-w-xs">
             {" "}
             <Image
+              priority
               src={esther2}
               alt=""
               className="rounded-2xl -rotate-6 shadow-lg shadow-orange-300 "

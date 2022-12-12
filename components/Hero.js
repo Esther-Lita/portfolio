@@ -19,6 +19,7 @@ export default function Hero() {
       <div className="">
         <div className="md:bottom-2 md:absolute md:right-10 mr-16 md:mr-0 my-2 md:my-0 lg:right-20">
           <Image
+            priority
             src={esther}
             alt="Esther Lizardo"
             className="  rounded-full  w-40  md:w-56 shadow-lg shadow-yellow-600 border-l"
