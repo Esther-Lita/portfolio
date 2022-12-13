@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import * as Icon from "react-feather";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import About from "../components/About";
@@ -17,6 +18,7 @@ export default function Home() {
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium font-inter rounded-full shadow-md hover:shadow-lg text-gray-800 bg-yellow-400 hover:bg-yellow-500 hover:shadow-yellow-400  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300 hover:-translate-y-2"
           >
             Let&apos;s Talk
+            <Icon.ChevronRight className="ml-1" />
           </button>
         </Link>
       </div>
@@ -27,7 +29,7 @@ export default function Home() {
             type="button"
             className="inline-flex items-center px-10 py-5 border border-transparent text-2xl font-medium font-inter rounded-full shadow-md hover:shadow-lg text-gray-800 bg-yellow-400 hover:bg-yellow-500 hover:shadow-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300 hover:-translate-y-2"
           >
-            Let&apos;s Talk
+            Let&apos;s Talk <Icon.ChevronRight className="ml-2" />
           </button>
         </Link>
       </div>

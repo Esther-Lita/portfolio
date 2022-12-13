@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="relative mx-auto w-full max-w-[1440px]  md:px-9 z-20  md:pb-8">
+    <div
+      id="contact"
+      className="relative mx-auto w-full max-w-[1440px]  md:px-9 z-20  md:pb-8"
+    >
       <footer className="bg-pink-500   md:rounded-3xl   flex h-full w-full justify-between flex-row md:flex-col px-5 py-14  md:px-14 lg:px-16 lg:pb-16 lg:pt-20 shadow-xl shadow-orange-200">
         <div className="flex flex-col md:flex-row justify-center ml-4 ">
           <div className="  m-auto ">
@@ -24,7 +27,7 @@ export default function Footer() {
                 className="inline-flex items-center px-10 py-5 border border-transparent text-xl font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
               >
                 Let&apos;s Chat
-                <Icon.Video className="ml-3" />
+                <Icon.Calendar className="ml-3" />
               </button>
             </Link>
           </div>
@@ -35,7 +38,7 @@ export default function Footer() {
                 className="inline-flex items-center px-3.5 py-2 border border-transparent text-sm leading-4 font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
               >
                 Let&apos;s Chat
-                <Icon.Video className="ml-3" />
+                <Icon.Calendar className="ml-3" />
               </button>
             </Link>
           </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import * as Icon from "react-feather";
 
 import esther2 from "../public/img/esther2.jpeg";
@@ -23,33 +24,46 @@ export default function About() {
               className="rounded-2xl -rotate-6 shadow-lg shadow-orange-300 "
             />
           </div>
-          <div className="max-w-xl m-auto font-robotoSlab">
-            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10 md:pt-0 md:pl-3">
+          <div className="max-w-xl m-auto font-robotoSlab text-gray-800 md:text-lg lg:text-2xl">
+            <p className=" pt-10 md:pt-0 md:pl-3">
               {" "}
-              <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
-              very passionated about learning and doing, it is amazing to be
-              part of the creation of a project and see how line after line of
-              code things fall in place.
+              <Icon.CheckCircle className="inline mr-2 text-green-800" /> I am
+              always motivated to learn something new, learning is essential for
+              growth in any area.
             </p>
-            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10    md:pt-6 md:pl-3 ">
+            <p className=" pt-10    md:pt-6 md:pl-3 ">
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
-              very passionated about learning and doing, it is amazing to be
-              part of the creation of a project and see how line after line of
-              code things fall in place.
+              very passionated about building, it is amazing to be part of the
+              creation of a project and see how line after line of code things
+              fall in place.
             </p>{" "}
-            <p className="text-gray-800 md:text-lg lg:text-2xl pt-10 md:pl-3 ">
+            <p className=" pt-10 md:pl-3 ">
               <Icon.CheckCircle className="inline mr-2 text-green-800" />I am
-              strongly driven to help people, therefore capture the costumers
-              wants and needs to meet the standards required for the assignment
-              is very important for me in a business relationship.
+              strongly driven to help people, therefore capture the team wants
+              and needs to meet the standards required for the assignment is
+              very important for me in a business relationship.
+            </p>{" "}
+            <p className=" pt-10 md:pl-3 ">
+              <Icon.CheckCircle className="inline mr-2 text-green-800" />I am a
+              certificated React Developer by{" "}
+              <Link
+                href="https://www.shecodes.io/workshops"
+                target="_blank"
+                className="text-purple-700 hover:underline "
+              >
+                Shecodes
+              </Link>{" "}
+              Workshops in 2022.
             </p>{" "}
           </div>
         </div>
       </div>
       <div className="bg-gradient-to-b  from-yellow-200 to-slate-50   w-screen pb-32 ">
-        <h2 className="text-3xl text-gray-900 font-bold font-josefinSans mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
-          I&apos;m Esther
-        </h2>
+        <div className=" ">
+          <h2 className="text-3xl text-gray-900 font-bold font-josefinSans mb-10 md:text-4xl pt-20 md:pt-0 text-center lg:text-6xl">
+            I&apos;m Esther
+          </h2>
+        </div>
         <p className="text-gray-700 md:text-lg text-center px-8 pt-10 lg:text-xl">
           In this momment I&apos;m seeking for new opportunities in front-end
           development. I&apos;m open to work remotely and have flexible hours.
