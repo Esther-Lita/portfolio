@@ -9,7 +9,7 @@ export default function Hero() {
       className=" bg-yellow-400 flex flex-row relative  w-screen md:py-6"
     >
       <div className="md:my-10 lg:ml-20 text-left lg:text-center  my-8 mx-auto md:mx-10 ml-4">
-        <h1 className="md:text-7xl xl:text-9xl font-bold font-oswald text-black text-6xl pt-2 ">
+        <h1 className="md:text-7xl lg:text-8xl xl:text-9xl font-bold font-oswald text-black text-6xl pt-2 ">
           Esther Lizardo
         </h1>
         <p className="md:text-lg lg:text-2xl mt-4 text-gray-600 font-robotoCondensed">
@@ -22,7 +22,7 @@ export default function Hero() {
             priority
             src={esther}
             alt="Esther Lizardo"
-            className="  rounded-full  w-40  md:w-56 shadow-lg shadow-yellow-600 border-l"
+            className="  rounded-full  w-48  md:w-56 xl:w-64 shadow-lg shadow-yellow-600 border-l"
           />
         </div>
       </div>
