@@ -24,7 +24,7 @@ export default function Footer() {
             <Link href="https://cal.com/esther-lita/30min" target="_blank">
               <button
                 type="button"
-                className="inline-flex items-center px-10 py-5 border border-transparent text-xl font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
+                className="inline-flex items-center transition-all duration-150 px-10 py-5 border border-transparent text-xl font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
               >
                 Let&apos;s Chat
                 <Icon.Calendar className="ml-3" />
@@ -35,7 +35,7 @@ export default function Footer() {
             <Link href="https://cal.com/esther-lita/30min" target="_blank">
               <button
                 type="button"
-                className="inline-flex items-center px-3.5 py-2 border border-transparent text-sm leading-4 font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
+                className="inline-flex items-center transition-all duration-150 px-3.5 py-2 border border-transparent text-sm leading-4 font-medium font-inter rounded-full shadow-md hover:shadow-lg shadow-pink-800 bg-pink-400 text-white  hover:bg-cyan-500  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 hover:shadow-cyan-700  hover:-translate-y-2"
               >
                 Let&apos;s Chat
                 <Icon.Calendar className="ml-3" />

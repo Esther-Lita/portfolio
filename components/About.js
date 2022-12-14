@@ -9,7 +9,7 @@ export default function About() {
     <div id="about">
       <div className="bg-gradient-to-b from-slate-50 to-cyan-200    w-screen pt-32">
         <h4 className="text-lg text-gray-900 font-bold font-aboutH pb-10 md:text-2xl lg:text-3xl text-center px-10  ">
-          If you&apos;ve made it all the way here it means you wank to know a
+          If you&apos;ve made it all the way here it means you want to know a
           little bit more about who I am...
         </h4>
       </div>

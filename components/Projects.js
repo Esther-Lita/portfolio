@@ -29,7 +29,7 @@ export default function Projects() {
               className=" rounded-2xl  "
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl group-hover:cursor-pointer">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl group-hover:cursor-pointer">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter ">Weather App</p>
@@ -52,7 +52,7 @@ export default function Projects() {
               className=" rounded-2xl  "
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter">Weather App</p>
@@ -71,7 +71,7 @@ export default function Projects() {
               className=" rounded-2xl m-auto"
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter">Dictionary Web</p>
@@ -93,7 +93,7 @@ export default function Projects() {
               className=" rounded-2xl "
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter">Weather App</p>
@@ -115,7 +115,7 @@ export default function Projects() {
               className=" rounded-2xl "
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter">Croissant Web</p>
@@ -138,7 +138,7 @@ export default function Projects() {
               className=" rounded-2xl "
             />
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
+          <div className="absolute bottom-0 left-0 right-0 text-white transition-all duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-80  p-2 px-4 rounded-b-2xl">
             <div className="flex justify-center w-full">
               <div className="font-normal ">
                 <p className="text-sm text-center font-inter">Lanzarote Web</p>
