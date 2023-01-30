@@ -1,9 +1,6 @@
 import { useState } from "react";
 import MobileMenu from "../navbar/MobileMenu";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { classNames } from "../../lib/classNames";
 
 export default function HamburguerBtn() {
   const [openState, setOpen] = useState(false);
