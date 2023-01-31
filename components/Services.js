@@ -54,15 +54,20 @@ export default function Services() {
             <div
               className={classNames(
                 service.color,
-                " max-w-xs py-2 px-4 mx-auto md:my-10 text-center border-b border-gray-200 shadow-lg rounded-2xl md:mx-16 my-8 "
+                " max-w-xs py-2 px-4 mx-auto md:my-16 text-center border-b border-gray-200 shadow-lg rounded-2xl md:mx-16 my-8  "
               )}
               key={service.service}
             >
-              <Image src={service.icon} width={100} height={80} className="m-auto "/>
+              <Image
+                src={service.icon}
+                width={100}
+                height={80}
+                className="m-auto "
+              />
               <h4 className="mb-5 text-2xl font-bold text-gray-700 font-inter md:text-3xl">
                 {service.service}
               </h4>
-              <p className="mb-1 text-sm text-gray-400 md:text-lg font-robotoSlab">
+              <p className="mb-1 text-sm text-gray-400 lg:text-lg font-robotoSlab">
                 {" "}
                 {service.description}
               </p>
