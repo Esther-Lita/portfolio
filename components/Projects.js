@@ -59,7 +59,7 @@ export default function Projects() {
         {myProjects.map((project) => {
           return (
             <Wrapper key={project.title}>
-              <Link href="project.web" target="_blank">
+              <Link href={project.web} target="_blank">
                 {" "}
                 <Image
                   src={project.image}
