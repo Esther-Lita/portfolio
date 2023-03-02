@@ -46,20 +46,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between m-auto space-y-4 text-white md:mt-24 ">
           {/* icons container*/}
           <div className="flex flex-col items-center mx-auto space-y-3 md:space-y-0 md:space-x-7 md:justify-end md:mx-0 md:flex-row font-robotoCondensed">
-            <div className="h-8 m-auto group">
-              <Link
-                href="https://www.instagram.com/esther_lita/"
-                target="_blank"
-              >
-                <div className="flex flex-row md:flex-col ">
-                  {" "}
-                  <Icon.Instagram className="inline w-8 h-8 p-1 mr-1 rounded-full md:mx-5 group-hover:bg-slate-50 group-hover:text-pink-700 group-hover:shadow-md group-hover:shadow-pink-800" />
-                  <p className="inline mt-1 group-hover:underline">
-                    Instagram
-                  </p>
-                </div>
-              </Link>
-            </div>
+         
             <div className="h-8 group ">
               <Link
                 href="https://www.linkedin.com/in/esther-lizardo-garcia-4823ab240/"
