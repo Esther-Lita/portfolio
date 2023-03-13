@@ -65,7 +65,7 @@ export default function About() {
           </h2>
         </div>
         <p className="px-8 pt-10 text-center text-gray-700 md:text-lg lg:text-xl">
-          In this momment I&apos;m seeking for new opportunities in front-end
+          In this moment I&apos;m seeking for new opportunities in front-end
           development. I&apos;m open to work remotely and have flexible hours.
         </p>
       </div>
